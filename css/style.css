@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #630436;
+}
+
+.factcontainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.factcontainer h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.factcontainer p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.factcontainer button {
+    background-color: #630436;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.factcontainer button:hover {
+    background-color: #630436;
+}
+
+.factcontainer .result {
+    padding: 4%;
+    font-size: 24px;
+    margin-top: 100px;
+}
