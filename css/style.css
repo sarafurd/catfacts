@@ -5,7 +5,11 @@
 }
 
 body {
-    background: #630436;
+    background-image: url('bill-burke-uLprPp3qayI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .factcontainer {
@@ -16,6 +20,8 @@ body {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .factcontainer h1 {
@@ -28,7 +34,11 @@ body {
     margin-bottom: 30px;
 }
 
-.factcontainer button {
+.button-container {
+    padding: 20px 0;
+}
+
+.button-container button {
     background-color: #630436;
     border: none;
     color: #fff;
@@ -38,12 +48,44 @@ body {
     cursor: pointer;
 }
 
-.factcontainer button:hover {
+.button-container button:hover {
     background-color: #630436;
 }
 
-.factcontainer .result {
+.result-container {
+    padding: 20px 0;
+}
+
+.factcontainer .fact {
     padding: 4%;
     font-size: 24px;
-    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        height: auto;
+    }
+    .factcontainer {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .factcontainer h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .factcontainer p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .factcontainer button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .factcontainer .result {
+        font-size: 16px;
+        margin-top: 50px;
+    }
 }
