@@ -60,32 +60,3 @@ body {
     padding: 4%;
     font-size: 24px;
 }
-
-@media screen and (max-width: 600px) {
-    body {
-        background-size: cover;
-        height: auto;
-    }
-    .factcontainer {
-        max-width: 90%;
-        margin: 0 auto;
-        margin-top: 20px;
-        padding: 10px;
-    }
-    .factcontainer h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    .factcontainer p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    .factcontainer button {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-    .factcontainer .result {
-        font-size: 16px;
-        margin-top: 50px;
-    }
-}
